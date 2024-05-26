@@ -1,0 +1,4 @@
+INSERT INTO user (phone_number, first_name, last_name, email, username, password, roles) VALUES ('7182238976','Sara','Adichie','sara.adichie@gmail.com','sadichie','query_&*3480','ROLE_USER');
+INSERT INTO user (phone_number, first_name, last_name, email, username, password, roles) VALUES ('2182238979','Ben','Amarachi','ben.amarachi@gmail.com','bamarachi','query_&*3480','ROLE_USER');
+INSERT INTO user (phone_number, first_name, last_name, email, username, password, roles) VALUES ('3182238975','John','Doe','john.doe@gmail.com','jdoe','query_&*3480','ROLE_USER');
+INSERT INTO user (phone_number, first_name, last_name, email, username, password, roles) VALUES ('3182238975','Jane','Doe','jane.doe@gmail.com','jdoe2','query_&*3480','ROLE_USER');
