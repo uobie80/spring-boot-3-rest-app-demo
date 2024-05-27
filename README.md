@@ -42,11 +42,11 @@ cd your-repo
 
 ## Enpoints
 
-### User Authentication
+### 1. User Authentication
 - To authenticate, use Basic Authentication with a username and password stored in the H2 database.
 - The passwords can be decrypted using the following site: https://bcrypt-generator.com/
 
-### Get User's First Name by Phone Number
+### 2. Get User's First Name by Phone Number
 
 - GET `/user/getFirstName/{phoneNumber}`
 
