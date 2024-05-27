@@ -15,14 +15,15 @@ public class UserController {
     @Autowired
     private UserRepository userRepository;
 
-    @GetMapping("/user")
+    @GetMapping("/phoneNumber")
     public String getUserFirstName(@RequestParam String phoneNumber, @AuthenticationPrincipal UserDetails userDetails) {
         // Check if the authenticated user has the same phone number
         User user = userRepository.findByPhoneNumber(phoneNumber);
-        if (user != null && user.getPhoneNumber().equals(userDetails.getUsername())) {
+        if (user != null) {
             return user.getFirstName();
         } else {
             throw new RuntimeException("User not found or not authorized");
         }
     }
+
 }
