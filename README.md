@@ -1,6 +1,6 @@
-# Spring Boot Web Application
+# Spring Boot 3 REST Web Application
 
-This is a simple Spring Boot web application that provides basic authentication and allows authenticated users to query a user's first name based on their phone number.
+This is a Spring Boot web application that provides basic authentication and allows authenticated users to query a user's first name based on their phone number.
 
 ## Requirements
 
@@ -19,7 +19,7 @@ This is a simple Spring Boot web application that provides basic authentication 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/springboot-demo-app.git
+git clone https://github.com/yourusername/spring-boot-3-rest-app-demo.git
 cd your-repo
 ```
 
