@@ -1,15 +1,15 @@
 package com.example.demo.model;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 
 @Entity
+
 public class User {
     @Id
-    private String phone_number;
+    private String phoneNumber;
     private String first_name;
     private String last_name;
-    private String email;
     private String username;
     private String password;
     private String roles;
@@ -17,11 +17,11 @@ public class User {
     // Getters and Setters
 
     public String getPhoneNumber() {
-        return phone_number;
+        return phoneNumber;
     }
 
-    public void setPhoneNumber(String phone_number) {
-        this.phone_number = phone_number;
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
 
     public String getFirstName() {
