@@ -1,4 +1,6 @@
-INSERT INTO users (phone_number, first_name, last_name, username, password, roles) VALUES ('7182238976','Sara','Adichie','sadichie','$2a$12$wkDykBe1kNcT3QV.C1rZLuFjVAYGUEWw52/tW0aqDn5LBF56fWrNK','ROLE_USER');
-INSERT INTO users (phone_number, first_name, last_name, username, password, roles) VALUES ('2182238979','Ben','Amarachi','bamarachi','$2a$12$wkDykBe1kNcT3QV.C1rZLuFjVAYGUEWw52/tW0aqDn5LBF56fWrNK','ROLE_USER');
-INSERT INTO users (phone_number, first_name, last_name, username, password, roles) VALUES ('3182238975','John','Doe','jdoe','query_&*3480','ROLE_USER');
-INSERT INTO users (phone_number, first_name, last_name, username, password, roles) VALUES ('3182238974','Jane','Smith','jsmith','$2a$12$wkDykBe1kNcT3QV.C1rZLuFjVAYGUEWw52/tW0aqDn5LBF56fWrNK','ROLE_USER');
+INSERT INTO users (phone_number, first_name, last_name, username, password, roles) VALUES ('7182238976','Sara','Adichie','sadichie','$2a$12$MOjgrtXhClYco9V1/XpyW.ZDGTxNFxt2rb/Q/l7SPQzRQCYe0tXqW','ROLE_USER');
+INSERT INTO users (phone_number, first_name, last_name, username, password, roles) VALUES ('2182238979','Ben','Amarachi','bamarachi','$2a$12$MOjgrtXhClYco9V1/XpyW.ZDGTxNFxt2rb/Q/l7SPQzRQCYe0tXqW','ROLE_USER');
+INSERT INTO users (phone_number, first_name, last_name, username, password, roles) VALUES ('3182238975','John','Doe','jdoe','$2a$12$MOjgrtXhClYco9V1/XpyW.ZDGTxNFxt2rb/Q/l7SPQzRQCYe0tXqW','ROLE_USER');
+INSERT INTO users (phone_number, first_name, last_name, username, password, roles) VALUES ('3182238974','Jane','Smith','jsmith','$2a$12$bIJKQXC3q8DxE7ZTd5s9/.nteSG0.jr6eXp3.KPiAURVCvhPFSPii','ROLE_USER');
+INSERT INTO users (phone_number, first_name, last_name, username, password, roles) VALUES ('2122236874','Uchenna','Obicheta','uobicheta','$2a$12$bIJKQXC3q8DxE7ZTd5s9/.nteSG0.jr6eXp3.KPiAURVCvhPFSPii','ROLE_USER');
+INSERT INTO users (phone_number, first_name, last_name, username, password, roles) VALUES ('2672236345','Orinzie','Obicheta','oobicheta','$2a$12$bIJKQXC3q8DxE7ZTd5s9/.nteSG0.jr6eXp3.KPiAURVCvhPFSPii','ROLE_USER');
